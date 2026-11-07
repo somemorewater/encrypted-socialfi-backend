@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test / build artifacts
+coverage/
+dist/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
